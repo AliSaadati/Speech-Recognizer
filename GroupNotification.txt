@@ -42,6 +42,8 @@ Daniel 02/14/2016: Working on writing the research paragraph now. Also, in the p
 
 Ali 02/14/2016: Hey guys sorry I didn’t get to do more for this assignment. I finally got the document to open up correctly on my computer (for some reason it was only letting me preview it) so hopefully there won’t be any difficulties next time around. I’ll go ahead and set up the GitHub account and link this document along with anything else we have. As for the roles, everything looks good to me. Since it’s such a small team I think everyone will pretty much have a hand in every aspect of the project, which is cool because we will all get a good understanding of the entire project. 
 I am really impressed by how this document came together, good job everyone!
+Update: I created a repository for our project here: https://github.com/AliSaadati/Speech-Recognizer.git 
+If anyone wants to interact with the files, just fork (copy) the entire repository to your Git/Hub account and start making changes. I will actively be syncing any changes we make to keep the project updated. I created a README and split this document into two parts; the contact info/ comments, and the semester project proposal. Depending on what everyone finds easier, we can keep commenting on this document or write to the file called GroupNotification.txt in the repository. 
 
 Richard 02/15/2016: I’m really impressed at how this turned out too. Good job everyone. I printed our proposal out and it’s ready to turn in during class today.
 
