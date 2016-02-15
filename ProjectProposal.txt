@@ -1,0 +1,113 @@
+Semester Project Proposal 
+
+
+1. Propose an Idea - Daniel
+
+2. Propose a Fallback Plan - Richard
+
+3. Present an Outline - Rani
+
+4. Outline Plans to Execute “Plans A & B” - Rani
+
+5. Propose Team Member Roles - Ali
+
+6. Propose a Timeline - Richard
+
+7. Research - Daniel
+
+8. Propose What You Will Present - Richard
+
+
+Paragraph 1: Propose an Idea
+	The idea we want to implement in the best-case scenario would be a combination of the Cocktail Party Effect (differentiating one signal in the presence of many) and a word recognition system. This system could be implemented to achieve many different goals, but the possibility that we want to pursue is as a password authentication system. The system would be trained by the end-user to recognize a specific word that they’ve decided will be their passphrase, and will only authenticate the user when the system can say with reasonable certainty that both the speaker is who they’re supposed to be and the passphrase is correct. We would also like to make this idea more practical by training the word recognition module to work not only when there’s one clear signal being processed - for example, when one speaker is alone in a room and there’s very little background noise - but also in more complicated and realistic scenarios, such as multiple people speaking at the same time in a crowded room. At a high level, the combined two modules would isolate the correct speaker’s voice, confirm that they are the person whom the system is trained for, and then analyze that specific stream to determine whether the word being spoken by them is their secret phrase used to authenticate them. 
+
+Paragraph 2: Propose a Fallback Plan
+If our intended idea isn’t showing progress or we have a major conflict then our fallback plan would be to simplify our project to something more accessible for our team. This Plan B option would be to recognize a specific accent rather than differentiating one sound signal from other signals happening at the same time. For example, we can have two sound signals from different genders. We can then acquire data from the different sound signals they produce and code to return whether the sound is either a male or female. This is where concordance comes into play and we can see if the keywords are being picked up as well. Focusing on a more basic ground level of speech would simplify our project if dealing with other variables such as other noise occurring in a room simultaneously becomes too difficult. After we are able to differentiate the gender of the speech then we can try to apply the word recognition system to one of those genders to see if it is processed. We will then continue to minimize our efforts if Plan A does not succeed.
+
+Paragraph 3: Present an Outline
+Our idea is that you can unlock your system (any device, such as a mobile phone, car stereo, etc.) even when music or other noise is playing in the background. A system that can recognize your voice no matter what the situation is. Currently, we are learning how to use MATLAB and get familiar with it by doing research on how we can implement our project to make our job easier. We are basing our idea on research that has been done before.
+Plan A
+We have not started our implementation yet and we are at the state where we are doing more research about MATLAB to make our project work efficiently. We are thinking of taking a set of data of one member in our team and try to teach the system to recognize it and then we will make it as a “password key”. Once the system is able to recognize a single speaker’s voice as well as detecting that their passphrase is correct, we will attempt to add noise in the background of our data and try to see if our system can still detect the “password key.” With each test that we make, we have to compare it to the previous one to see how much we improved, with the end goal of course being to develop a system with the highest success rate possible. 
+Plan B
+This plan will be used if our main plan does not work out as we think it will. It’s a less complicated theory. We think we can develop a system that can recognize the difference between the accent of male and female voices. We will be implementing this using MATLAB and based on our research the female’s voice is way softer than male’s voice. We have one member of the team doing some research and gathering information on this idea. If our main idea fails, we think we will still have a good start to finish this project by the end of the semester.
+Conclusion
+We have came up with a solid system that guarantees our success. If Plan A  does not work out as planned, then Plan B will for sure by the end of the semester. We will be implementing both plans using the same system which benefits us by getting use to it. We would not need as much time starting Plan B as it took us for Plan A.
+
+Paragraph 4: Outline Plans to Execute ‘Plans A & B’
+	We are using the system MATLAB for both plans A&B. We are planning on using two different audio data recordings: one mixed (password key & music) and one unmixed data (password key only). We will also implement “kurtosis maximization” which is an algorithm that helps separate speech signals. The data collected will be implemented with the algorithm and matrix that shows whether it is orthogonal. This method will give us more time to focus on other parts of the project.
+
+
+Paragraph 5: Propose Team Member Roles
+Roles
+Team Members
+Research
+Richard, Daniel, Rani
+Architecture Design
+Richard, Daniel, Ali
+Implementation/ Coding
+Richard, Daniel, Ali, Rani
+GUI/ Coding
+Richard, Daniel, Ali, Rani
+Testing and Debugging
+Richard, Daniel, Ali, Rani
+Code Documentation
+Daniel, Ali
+Presentation (PowerPoint)
+Richard, Rani
+
+Paragraph 6: Propose a Timeline
+Schedule (Weekly every Monday)
+Implementations
+February 15th
+Proposal due; Discuss topic and plans of approach
+February 22nd
+Continue research on topic
+February 29th
+Begin setting up (Audacity, MATLAB, Eclipse, etc.)
+March 7th
+Record sound files and retrieve data
+March 14th
+Analyze data to begin implementing
+March 21st
+Discuss architecture design; Begin coding
+March 28th
+Continue coding; Discuss problems that come up
+April 4th
+Continue coding; Is Plan B needed?
+April 11th
+Test and debug
+April 18th
+Test and debug; Finalize program
+April 25th
+Begin setting up PowerPoint
+May 2nd
+Organize PowerPoint for group to present
+May 9th
+Finished project
+
+
+
+Paragraph 7: Research
+	While present-day research in word recognition varies quite a bit from paper to paper, there seem to be some common elements present throughout, especially in the pre-processing stage before a specific algorithm is chosen for further analysis. Sound data is acquired and typically stored in a temporary buffer before processing begins. From there, window size, overlap length, step size, frame length, and other similar parameters are carefully chosen to match the specific stream of speech being analyzed. Once the data has been prepared, the developer of the system will decide on a model that would best fit the specifications of the project and begin the process of feature extraction. For example, some commonly-used algorithms which also have the bonus feature of being easily implemented in MATLAB will calculate MFCC feature vectors for each frame of the data taken, which can then be combined to create a Probability Density Function for each word in our dictionary. Depending on the fit, PDFs can be substituted for Gaussian mixture models or other similar models to best fit the data. At this point, with a solid Gaussian mixture model or PDF representation of each word in the target dictionary, the next step is to choose a classification algorithm that best maps new test data to the closest-matching PDF or GMM, thus identifying or classifying the word that was just spoken. Given new input data, MFCC feature vectors are again extracted and a chosen test will be applied to the new vector to attempt to match it to a prior word’s model. This can be implemented in MATLAB using a log-likelihood ‘posterior’ function, a Hidden Markov Model, or other various implementations. The main point to be taken from researching this topic is that there is no ‘one size fits all’ approach - we will likely need to test, modify, and re-test several different models before we find the one with the best classification rates. 
+
+Paragraph 8: Propose What You Will Present
+During our presentation we will present the non-technical side along with the technical side of how we completed our project. Non-technical material would be considered the cooperation and organization skills we used to meet team expectations. Technical material would go into depth of how we implemented data and created our voice recognition system to work.
+
+Our presentation outline will consist of the following slides:
+
+
+Introduction
+Why we chose The Cocktail Party Effect
+What were our goals and expectations
+How did we stay organize and meet deadlines
+How did we get started
+Body
+What software and hardware were used
+Present the data we collected
+Present architecture design
+Present live demo of our project
+Conclusion
+What were our challenges
+Did we use an alternative plan
+Did we meet our goals and expectations
+Overall results
