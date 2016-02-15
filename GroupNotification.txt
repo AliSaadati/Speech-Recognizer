@@ -1,0 +1,49 @@
+CS 582 Group Project
+Cocktail Party Effect
+
+Contact Information:
+
+Richard Huynh | richardhhuynh@yahoo.com | 858-357-4846
+Daniel Kesner | dkesner94@gmail.com     | 619-822-6881
+Ali Saadati   | alisaadati619@yahoo.com | 619-755-3994
+Rani Jabrael  | jabrael.rani@gmail.com  | 619-387-6005
+
+Topic Ideas: 
+-Cocktail Party Effect
+-Accent Recognizer
+-Password Voice Recognition
+
+Project Deadlines:
+February 15th Monday - Worth 5% of Grade! Topic idea + 1 paragraph description of what the idea is and what we hope to accomplish/what we want to show. 2 page paper!
+
+Comments:
+Richard 01/28/2016: I’ve already e-mailed Professor Konopka about who is in our group and some of the topic ideas we were discussing. I’m not sure when the deadline is for when we have to determine our topic, but lets try to decide on what’s best soon and preferably something we are all able to work on. Let me know what you guys think, thanks.
+
+Richard 02/01/2016: Welcome to the group Alex! I just e-mailed the professor to let him know that you’re in our group, he probably knows since he assigned you to our team. Below are some of the ideas that we have been discussing for our topic still. We haven’t really gotten into too much depth of the speech processing content of this class, but I was thinking once we do we can apply what we learned for example, the ANN Model or the Training Algorithm (discussed at lecture today) to what we decide on for our program. Basically applying what we learn in class to our topic. If you have any ideas or recommendations feel free to let us know.
+
+Richard 02/09/2016: Hey Team the new proposal is up for our group project! This is the link so you guys don’t need to search for it on Blackboard:
+https://blackboard.sdsu.edu/bbcswebdav/pid-2808840-dt-content-rid-55384961_1/courses/CS582-01-Spring2016/Semester%20Project%20Proposal%281%29.pdf
+There are about 8 topics we need to cover in the proposal which are listed below on this Google Doc. I was thinking if each of us just pick 2 topics and write about 1-2 paragraphs for each it should end up being 2 pages or more. I’m really busy with other exams and I think I’m catching a cold so I won’t be able to work on this until Friday. Whichever 2 topics are left I will cover them so feel free to pick any you want to write about. Put your name near the topic so another team member doesn’t start on the same one. We can all try to finish before Sunday night which will be the day we can revise over it before submitting it. This is our first assignment due February 15th Monday and is worth 5% of our grade so let’s try to get a good grade on it guys! I know we are still up in the air about our topic, but you can choose to write about a Fallback Plan or Research for our proposal. If you guys have any further questions feel free to contact me or post them on here, thanks!
+
+Daniel 02/09/2016: I’m not super busy now so I’ll try to do as many of the sections as I can in between other assignments. I’ll start with 1 & 7, proposing our idea and research on the subject, and if I have more time I’ll try and knock out a few of the other paragraphs as well. Posted below.
+
+Richard 02/10/2016: Sorry guys, I will be missing class today, can you guys fill me in if there’s anything about the project. I started on another proposal topic below and will continue to work on it over the weekend.
+
+Rani 02/10/2016: sorry guys I have been busy but tomorrow Saturday I am going to finish the parts that put my name on. Have good weekend guys.
+
+Richard 02/13/2016: I just finished the Timeline (#6) and Propose What You Will Present (#8). I know that Daniel is still working on Research and Rani will work on #3 and #4. Hope you had a good birthday Rani! If you guys need help feel free to let me know. For some reason the google docs kicked Ali out, but I added him back on. Hopefully you can still edit, shoot me an e-mail if you can’t. The Team Member Roles are still debatable so you can put multiple members on one topic, but we will discuss it later since it isn’t official. We’ll all be helping out so it’s not like one person is doing something by themselves. This proposal seems like it will be over 2 pages with everything completed so we should be good. Does anyone know if we turn in a hard copy or just e-mail it to him? Lets meet on here Sunday night to finalize it so we can turn it in. Thanks team, have a good weekend!
+
+Rani 02/13/2016: Thank you Richard. does anyone know what kind system we are using? for planA and planB and how did you guys come up with the ideas lol. 
+
+Richard 02/14/2016: Thanks for finishing your part Rani. I made some changes to it, but overall I think it should be fine. I am waiting to see if Daniel is still working on the last part which is Research before I put it all together to print out and hand in a hard copy tomorrow. I also finished the Team Member Roles since I haven’t heard back from Ali. He probably didn’t finish it because we are still unsure on who to assign what. I just randomly put our names on there, but nothing is official. We’ll talk more on Monday, good job guys. 
+
+
+Daniel 02/14/2016: Working on writing the research paragraph now. Also, in the process of doing some research I found a link to do basic word recognition using MatLab -- I’m gonna leave it here so we can look back at it later, because it looks to be almost exactly what we’re looking for: http://www.mathworks.com/company/newsletters/articles/developing-an-isolated-word-recognition-system-in-matlab.html?refresh=true. Also, regarding team roles: I’m down to do a lot of the coding and research behind this because it’s an area I’m actually interested and wouldn’t mind learning more about. I downloaded MatLab over the weekend and have been messing around with it and looking up some tutorials to try and get the hang of it. This week will be pretty busy for me but either this week or next, I’ll take a shot at implementing a very basic, ‘step one’ kind of idea just to see if I can get it to recognize my voice or recognize a specific word or something just to kind of get our feet wet. If anyone in this group is good with Git, it might be a good idea to set up a repository so we all have access to the most recent version of our code and we won’t have to be constantly emailing updated versions and whatnot.
+
+Ali 02/14/2016: Hey guys sorry I didn’t get to do more for this assignment. I finally got the document to open up correctly on my computer (for some reason it was only letting me preview it) so hopefully there won’t be any difficulties next time around. I’ll go ahead and set up the GitHub account and link this document along with anything else we have. As for the roles, everything looks good to me. Since it’s such a small team I think everyone will pretty much have a hand in every aspect of the project, which is cool because we will all get a good understanding of the entire project. 
+I am really impressed by how this document came together, good job everyone!
+
+Richard 02/15/2016: I’m really impressed at how this turned out too. Good job everyone. I printed our proposal out and it’s ready to turn in during class today.
+
+
+
